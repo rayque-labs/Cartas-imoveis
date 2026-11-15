@@ -28,3 +28,47 @@ body{background:#09090d}
 .whatsapp-float svg{width:34px;height:34px}
 .whatsapp-tooltip{position:absolute;right:74px;white-space:nowrap;background:#fff;color:#171017;font-size:12px;font-weight:800;padding:10px 14px;border-radius:6px;box-shadow:0 8px 22px #0005}
 @media(max-width:760px){.portrait-center .visual-word{left:25px;bottom:60px;font-size:16px}.whatsapp-float{right:16px;bottom:18px;width:58px;height:58px}.whatsapp-tooltip{display:none}.visual-frame{height:410px}}
+
+/* Conteúdo educativo e jornada de decisão */
+.decision{background:linear-gradient(145deg,#180d19,#330e29 70%,#140d17)}
+.decision-layout{display:grid;grid-template-columns:1fr .85fr;gap:24px;align-items:stretch}
+.planner-form{box-shadow:0 24px 70px #0006}
+.planner-result{display:flex;flex-direction:column;justify-content:center;padding:48px;background:radial-gradient(circle at 85% 10%,#85234d55,transparent 55%),#120f18;border:1px solid #7c2b53;min-height:460px}
+.result-kicker{font-size:11px;color:#ff9e68;letter-spacing:.18em;font-weight:800}
+.planner-result h3{font-size:clamp(27px,3vw,40px);line-height:1.2;letter-spacing:-.04em;margin:22px 0}
+.planner-result p{color:#d8c9d3;font-size:14px;line-height:1.85}
+.result-tips{display:grid;gap:12px;margin:20px 0 32px;font-size:12px;color:#f0dce6}
+#planner-personalized{border-top:1px solid #61304b;padding-top:20px;margin-bottom:25px}
+#planner-personalized h4{font-size:18px;margin:0 0 10px}
+#planner-personalized .planner-summary{color:#ffb88f;font-size:12px}
+.button-outline{border:1px solid #ff8b55;color:#fff;background:transparent;align-self:flex-start}
+.button-outline:hover{background:#702043}
+.knowledge{background:#0b0b10}
+.knowledge-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.knowledge-card{background:#18131d;border:1px solid #48283c;padding:27px 23px;min-height:320px}
+.knowledge-icon{display:grid;place-items:center;width:46px;height:46px;border:1px solid #a43b6b;color:#ff9a62;font-size:14px;font-weight:800;margin-bottom:35px}
+.knowledge-card h3{font-size:19px;line-height:1.4;letter-spacing:-.03em}
+.knowledge-card p{font-size:13px;line-height:1.85;color:#c9bfc8}
+.knowledge-foot{display:flex;justify-content:space-between;gap:30px;align-items:center;border-top:1px solid #493040;padding-top:25px;margin-top:30px}
+.knowledge-foot p{font-size:13px;color:#bcb1bc;line-height:1.8;max-width:650px;margin:0}
+.knowledge-foot a,.trust a{color:#ff9b67;font-size:13px;font-weight:800;white-space:nowrap}
+.comparison{background:#190f1b}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:45px}
+.compare-grid article{padding:36px;background:#101016;border:1px solid #5c3048;border-top:4px solid #a72d65}
+.compare-grid article:last-child{border-top-color:#ff762c}
+.compare-label{color:#ffab7c;font-size:10px;font-weight:800;letter-spacing:.2em}
+.compare-grid h3{font-size:26px;margin:22px 0 12px}
+.compare-grid p,.compare-grid li{font-size:14px;color:#c9bfca;line-height:1.85}
+.compare-grid ul{padding-left:19px;margin-top:24px}
+.compare-grid li{margin-bottom:10px}
+.compare-disclaimer{color:#b2a7b1;font-size:12px;margin-top:25px;line-height:1.7}
+.trust{background:linear-gradient(120deg,#4b1033,#190d1a)}
+.trust-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}
+.trust-grid>div:first-child>p:not(.kicker){color:#dfcbd7;line-height:1.9;font-size:15px}
+.trust-checklist{padding:36px;background:#0e0c14b8;border:1px solid #a34071}
+.trust-checklist h3{font-size:22px}
+.trust-checklist ul{list-style:none;padding:0;margin:0}
+.trust-checklist li{padding:14px 0 14px 28px;position:relative;border-bottom:1px solid #ffffff1c;color:#e6d7e0;font-size:13px;line-height:1.6}
+.trust-checklist li:before{content:"✓";position:absolute;left:0;color:#ff9e69;font-weight:900}
+@media(max-width:1000px){.knowledge-grid{grid-template-columns:repeat(2,1fr)}.trust-grid{gap:45px}}
+@media(max-width:760px){.decision-layout,.compare-grid,.trust-grid{grid-template-columns:1fr}.knowledge-grid{grid-template-columns:1fr}.knowledge-card{min-height:auto}.planner-result{padding:30px;min-height:auto}.knowledge-foot{flex-direction:column;align-items:flex-start}.knowledge-foot a{white-space:normal}.compare-grid article{padding:27px}.trust-checklist{padding:25px}}
