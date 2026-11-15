@@ -1,0 +1,2 @@
+Teste de escrita da integração ChatGPT com GitHub.
+Se este arquivo apareceu, a permissão de escrita está funcionando.
