@@ -31,3 +31,31 @@ form{background:#fff;border:1px solid #e8dce0;border-top:4px solid var(--color-3
 .decor{background:#fff0e6;color:var(--color-10)}
 footer{background:var(--ink);padding:30px 0}
 @media(max-width:850px){.hero{padding:54px 0 60px}.section{padding:72px 0}}
+
+/* Correção de hierarquia: 60% bordô, 30% branco, 10% laranja.
+   Preto é neutro tipográfico e não compete com as cores da marca. */
+:root{--color-60:#681b32;--color-30:#fff;--color-10:#f47721;--ink:#181414}
+body{background:var(--color-60);color:var(--ink)}
+.header{background:#fff;border-bottom:3px solid var(--color-10)}
+.hero{background:linear-gradient(125deg,#681b32 0%,#541327 65%,#3d1020 100%);padding:105px 0 112px}
+.hero-card{background:#fff;color:#181414;border-top:5px solid var(--color-10)}
+.hero-card h2{color:var(--color-60)}
+.section{background:var(--color-60);color:#fff}
+.section h2{color:#fff}
+.section .eyebrow{color:#ffad65}
+.section.alt{background:#fff;color:var(--ink);border-top:0;border-bottom:0}
+.section.alt h2{color:var(--color-60)}
+.section.alt .eyebrow{color:var(--color-60)}
+.section.alt p{color:#514449}
+.section:not(.alt)>.wrap>.cards .card{background:#fff;color:var(--ink);border:1px solid #e9dfe2;border-bottom:4px solid var(--color-10)}
+.section:not(.alt)>.wrap>.cards .card h3{color:var(--color-60)}
+.section:not(.alt)>.wrap>.cards .card p{color:#514449}
+.section#simular{background:linear-gradient(125deg,#681b32,#501428)}
+.section#simular .contact>div>p:not(.eyebrow){color:#f6e8ed}
+.section#simular .contact>div a{color:#ffad65;text-decoration:underline}
+.section#simular form{background:#fff;color:var(--ink);border:0;border-top:5px solid var(--color-10)}
+.section#simular form label{color:var(--ink)}
+.btn{background:var(--color-10);color:#181414}
+.btn.ghost{background:transparent;color:#fff;border:1px solid #fff}
+footer{background:#210b12;border-top:3px solid var(--color-10)}
+@media(max-width:850px){.hero{padding:68px 0}.section{padding:72px 0}}
