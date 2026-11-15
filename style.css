@@ -2,3 +2,32 @@
 /* Identidade visual: bordô, branco, laranja e preto */
 :root{--bordo:#681b32;--branco:#fff;--laranja:#f47721;--preto:#181414}
 .header{border-bottom:2px solid #681b32}.brand{color:#181414}.hero{background:radial-gradient(circle at 85% 12%,#852b45,#681b32 45%,#210b12 100%)}.hero-card{border-top:5px solid #f47721}.card{border-bottom:3px solid #681b32}.card:hover{border-bottom-color:#f47721}.btn{color:#181414}.btn.ghost{color:#fff}.alt{background:#fff8f5}.section h2{color:#681b32}.hero h1,.hero-card h2{color:inherit}.hero h1 em{color:#ffad65}footer{background:#181414}form{border-top:4px solid #681b32}
+
+/* Sistema 60/30/10: superfícies brancas predominantes,
+   bordô como identidade secundária e laranja apenas em ações/detalhes.
+   Preto reservado à legibilidade. */
+:root{--color-60:#fff;--color-30:#681b32;--color-10:#f47721;--ink:#181414}
+body{background:var(--color-60);color:var(--ink)}
+.header{background:#fff;border-bottom:1px solid #e8d9de}
+.brand{color:var(--ink)}.brand span{color:var(--color-30)}
+.hero{background:linear-gradient(115deg,#681b32 0%,#541327 75%,#3c0e1d 100%);padding:66px 0 72px}
+.hero-grid{gap:55px}
+.hero h1{font-size:clamp(2.6rem,4.7vw,4.35rem)}
+.hero h1 em{color:#fff;text-decoration:underline;text-decoration-color:var(--color-10);text-underline-offset:8px;text-decoration-thickness:5px}
+.hero-card{border-top:4px solid var(--color-10);box-shadow:0 14px 36px #210b1226}
+.section{background:#fff;padding:90px 0}
+.section.alt{background:#fff;border-top:1px solid #f0e6e9;border-bottom:1px solid #f0e6e9}
+.section h2{color:var(--color-30)}
+.card{background:#fff;border:1px solid #e9dfe2;border-bottom:2px solid var(--color-30)}
+.card:hover{border-bottom-color:var(--color-10)}
+.card h3{color:var(--ink)}
+.number,.eyebrow{color:var(--color-10)}
+.section .eyebrow{color:var(--color-30)}
+.checks li{border-bottom:1px solid #e7d9de}
+form{background:#fff;border:1px solid #e8dce0;border-top:4px solid var(--color-30);box-shadow:0 12px 40px #210b120b}
+.btn{background:var(--color-10);color:var(--ink)}
+.btn:hover{background:#ff954d}
+.btn.ghost{background:transparent;color:#fff;border:1px solid #fff9}
+.decor{background:#fff0e6;color:var(--color-10)}
+footer{background:var(--ink);padding:30px 0}
+@media(max-width:850px){.hero{padding:54px 0 60px}.section{padding:72px 0}}
