@@ -92,3 +92,78 @@ body{background:#09090d}
 .solution-card:hover{transform:translateY(-5px);border-color:#e4acbc77}
 @media(max-width:760px){.visual-frame{height:365px}.visual-center{padding:0 29px 80px}.visual-corner{left:29px;bottom:26px;font-size:7px}.solution-photo{height:175px}}
 @media(prefers-reduced-motion:reduce){.solution-card{transition:none}.solution-card:hover{transform:none}}
+
+
+/* Premium 2026: midnight navy, muted champagne and warm ivory.
+   Consistent across desktop/mobile; no claims of luxury property inventory. */
+:root{--bg:#0c1924;--panel:#132536;--panel2:#1b3041;--burgundy:#244052;--burgundy-light:#50697a;--orange:#c8a777;--text:#f7f5ef;--muted:#b6c2c8;--border:#344c5b;color:var(--text);background:var(--bg)}
+html{background:#0c1924}body{background:#0c1924}
+em,.hero h1 em,.logo b{color:#d8bf96}
+::selection{background:#c8a777;color:#111e2a}
+.announcement{background:#0a1520;color:#d9d0bc;border-bottom:1px solid #c8a77735}
+.announcement-dot{background:#c8a777;box-shadow:0 0 0 4px #c8a7771f}
+.header{background:#0b1822f2;border-bottom:1px solid #d9c29a24}
+.nav nav a{color:#dce3e4}.nav nav a:hover{color:#e3c798}
+.logo-mark{background:#1d3445;border-color:#8f7c5f;border-radius:10px}.logo-mark span{color:#d8b57e}
+.logo small{color:#b1bdc2}
+.button{border-radius:9px}.button-primary{background:#c8a777;color:#152535;box-shadow:0 8px 26px #0002;font-weight:800}
+.button-primary:hover{background:#ebd1a8;color:#102334;transform:translateY(-2px)}
+.button-nav{background:#223746;color:#f8f2e8;border-color:#8f7a58}
+.button-nav:hover{background:#344b5b}
+.hero{background:radial-gradient(ellipse at 83% 35%,#273f4e 0%,#142637 38%,#0b1925 80%)}
+.hero:before{opacity:.11}.hero h1{color:#fffdf8}.hero h1 em{color:#dcc29b}
+.eyebrow,.kicker{color:#d2b486}.line{background:#c5a473}
+.hero-lead{color:#c6d0d3}.hero-proof{color:#dce1df}.hero-proof strong{color:#f4dfba}
+.proof-icon{color:#d1af7c}.text-link{color:#e7dac4}.text-link span{color:#d1b181}
+.visual-frame{border-color:#a28d68;box-shadow:0 34px 85px #020b13a3}
+.visual-frame:before{border-color:#fff9e866}
+.visual-shade{background:linear-gradient(180deg,#071b2408 10%,#0b1c2b25 48%,#06131ee8 100%)}
+.visual-overline{color:#ebcf9e}.visual-corner{color:#e2dac5b0}
+.floating-note{background:#f6f0e5;color:#162837;border:1px solid #d6c9b5;border-radius:10px}
+.floating-symbol{color:#a17b45}
+.hero-bottom{border-color:#d5c4a52b;color:#d8d2c7}.hero-scroll{color:#c5b38f}
+.section{color:#f7f5ef}.intro{background:#101f2c}
+.section-aside{color:#becad0}
+.solution-card{background:#1a2c3b;border:1px solid #3a5360;border-radius:15px;box-shadow:0 12px 35px #0002}
+.solution-card:hover{border-color:#c5ab83}
+.solution-num{color:#d3bc98}.solution-icon{color:#c8a777}
+.solution-card p{color:#c2ccd0}.solution-card a{color:#e6c693}
+.solution-photo:after{background:#0b1c2bdf;color:#f8f0df}
+.statement{background:linear-gradient(115deg,#213a49,#152938);border-color:#6d74683b}
+.statement .kicker,.statement h2 em{color:#d7bd95}
+.statement p:last-child{color:#d2d8d6}
+.method{background:#0d1b28}
+.steps article{border-color:#3b505b}.step-index{color:#c7ab80}.steps p{color:#b6c4ca}
+.about{background:#132637}
+.about-art{background:radial-gradient(circle at 70% 20%,#425c6c,#213949 47%,#101e2b);border:1px solid #7e8274;border-radius:14px}
+.about-art:before,.about-art:after{border-color:#d0b98e38}.about-emblem{color:#d1b88c}
+.about-copy p:not(.kicker){color:#ced5d5}.about-copy strong{color:#edd4a9}
+.decision{background:linear-gradient(145deg,#101f2e,#1e3545 65%,#0d1c2a)}
+.planner-form,form{background:#182d3d;border:1px solid #526575}
+.form-heading{color:#d9bc92}
+label{color:#e9ece7}input,select{background:#f9f7f1;color:#192b38;border:1px solid #b9c1bf;border-radius:9px}
+input:focus,select:focus{border-color:#b89a6c;box-shadow:0 0 0 3px #c4a67742}
+.planner-result{background:radial-gradient(circle at 80% 15%,#3b536678,transparent 55%),#142635;border:1px solid #647480;border-radius:13px}
+.result-kicker,#planner-personalized .planner-summary{color:#d6bb92}
+.result-tips{color:#d7e0de}#planner-personalized{border-color:#5b7180}
+.button-outline{border-color:#c3a575;color:#f9f4e9;border-radius:9px}.button-outline:hover{background:#344d5c}
+.knowledge{background:#0d1c29}
+.knowledge-card{background:#192d3d;border:1px solid #3c5261;border-radius:12px}
+.knowledge-icon{border-color:#a89069;color:#d9c196}
+.knowledge-card p,.knowledge-foot p{color:#c5d0d0}
+.comparison{background:#142637}
+.compare-grid article{background:#0d202d;border:1px solid #475c68;border-top:4px solid #8c9eaa;border-radius:12px}
+.compare-grid article:last-child{border-top-color:#c5a779}
+.compare-label{color:#d8bd91}.compare-grid p,.compare-grid li{color:#c5cfd1}.compare-disclaimer{color:#c1c9c9}
+.trust{background:linear-gradient(115deg,#233d4b,#122534)}
+.trust-grid>div:first-child>p:not(.kicker){color:#d1d9d8}
+.trust-checklist{background:#0e2230;border:1px solid #617783;border-radius:13px}
+.trust-checklist li{color:#d4dedb}.trust-checklist li:before{color:#d6b680}
+.faq{background:#101f2d}.faq-list,.faq-list details{border-color:#425969}
+.faq-list summary span{color:#d0af7e}.faq-list details p{color:#c4d0d1}
+.contact{background:radial-gradient(ellipse at 7% 75%,#2d4857,#152a39 62%,#0d1d2a)}
+.contact-grid>div>p:not(.kicker){color:#d0d9d7}.contact-note{color:#e3dbc9}.contact-note span{color:#c4a574}
+.footer{background:#081722}.footer-top p{color:#bac6c7}.footer-up{border-color:#85775d;color:#d8bf96}
+.footer-bottom{border-color:#3d5260;color:#b5c0c1}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #e0c28f;outline-offset:3px}
+@media(max-width:760px){.solution-card{border-radius:13px}.visual-frame{border-radius:14px}.hero{background:linear-gradient(155deg,#182e3e,#0c1d29)}}
