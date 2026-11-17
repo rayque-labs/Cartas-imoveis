@@ -1,1 +1,1 @@
-window.SITE_CONFIG = Object.freeze({NOME:"Rayque",WHATSAPP:"5533998729621",CIDADE_ATENDIMENTO:"Brasil",EMPRESA_LEGAL:"Rayque — Intermediação de cotas contempladas",CNPJ:"",EMAIL:"",FORM_ENDPOINT:""});
+window.SITE_CONFIG = Object.freeze({NOME:"Rayque",WHATSAPP:"5533998729621",CIDADE_ATENDIMENTO:"Brasil",EMPRESA_LEGAL:"Projeto pessoal independente — Rayque",CNPJ:"",EMAIL:"",FORM_ENDPOINT:""});
