@@ -72,3 +72,23 @@ body{background:#09090d}
 .trust-checklist li:before{content:"✓";position:absolute;left:0;color:#ff9e69;font-weight:900}
 @media(max-width:1000px){.knowledge-grid{grid-template-columns:repeat(2,1fr)}.trust-grid{gap:45px}}
 @media(max-width:760px){.decision-layout,.compare-grid,.trust-grid{grid-template-columns:1fr}.knowledge-grid{grid-template-columns:1fr}.knowledge-card{min-height:auto}.planner-result{padding:30px;min-height:auto}.knowledge-foot{flex-direction:column;align-items:flex-start}.knowledge-foot a{white-space:normal}.compare-grid article{padding:27px}.trust-checklist{padding:25px}}
+
+/* 2026 visual refresh: editorial residential photography, explicitly illustrative. */
+.visual-frame{border-radius:18px;box-shadow:0 32px 85px #0008;isolation:isolate}
+.visual-frame:before{inset:16px;border:1px solid #ffffff5c;z-index:3;pointer-events:none;border-radius:9px}
+.visual-photo{position:absolute;inset:0;background-image:url("https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1300&q=85");background-size:cover;background-position:50% 50%;transform:scale(1.01)}
+.visual-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,13,15,.06) 15%,rgba(20,10,17,.22) 46%,rgba(13,9,13,.86) 100%)}
+.visual-center{align-items:flex-start;justify-content:flex-end;gap:14px;padding:0 42px 98px;z-index:2}
+.visual-overline{color:#ffe3c5;font-size:11px;letter-spacing:.24em;font-weight:800}
+.visual-word{text-align:left;letter-spacing:.025em;font-size:clamp(23px,3vw,37px);line-height:1.22;text-shadow:0 3px 15px #000a}
+.visual-corner{bottom:38px;left:42px;right:20px;color:#fff9;font-size:8px;letter-spacing:.12em;z-index:2}
+.floating-note{border-radius:12px;z-index:4}
+.solution-photo{height:190px;margin:-1px -1px 27px;background-size:cover;background-position:center;border-radius:14px 14px 0 0;position:relative}
+.solution-photo:after{content:"IMAGEM ILUSTRATIVA";position:absolute;bottom:10px;right:12px;padding:5px 9px;background:#120c10c9;border-radius:4px;color:white;font-size:8px;letter-spacing:.12em}
+.solution-photo-home{background-image:url("https://images.unsplash.com/photo-1600047509782-20d39509f26d?auto=format&fit=crop&w=850&q=80")}
+.solution-photo-apartment{background-image:url("https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=850&q=80")}
+.solution-photo-invest{background-image:url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=850&q=80")}
+.solution-card{overflow:hidden;border-radius:14px;transition:transform .25s ease,border-color .25s ease}
+.solution-card:hover{transform:translateY(-5px);border-color:#e4acbc77}
+@media(max-width:760px){.visual-frame{height:365px}.visual-center{padding:0 29px 80px}.visual-corner{left:29px;bottom:26px;font-size:7px}.solution-photo{height:175px}}
+@media(prefers-reduced-motion:reduce){.solution-card{transition:none}.solution-card:hover{transform:none}}
